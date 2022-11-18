@@ -1,0 +1,11 @@
+.user-btn {
+	background: #7367F0 !important;
+	border-color: #7367F0 !important;
+	color: white;
+	margin-bottom: 1rem;
+}
+
+.user-btn:hover {
+	box-shadow: 0 8px 25px -8px #7367f0;
+}
+

@@ -1,0 +1,24 @@
+=================errors_log table========================
+CREATE TABLE IF NOT EXISTS public.errors_log
+(
+    id integer NOT NULL DEFAULT nextval('errors_log_id_seq'::regclass),
+    customer_name character varying COLLATE pg_catalog."default" NOT NULL,
+    profit_center bigint NOT NULL,
+    description character varying COLLATE pg_catalog."default" NOT NULL,
+    create_at character varying COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT errors_log_pkey PRIMARY KEY (id)
+)
+
+
+=================static_master_payer_code table========================
+CREATE TABLE IF NOT EXISTS public.static_master_payer_code
+(
+    id integer NOT NULL DEFAULT nextval('static_master_payer_code_id_seq'::regclass),
+    payer_code character varying COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT static_master_payer_code_pkey PRIMARY KEY (id)
+)
+
+====================14-08======================
+added voar_percentage in revenue_table alter query
+
+

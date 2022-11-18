@@ -1,0 +1,52 @@
+.container-main {
+	background-color: #F2F2F2;
+	padding: 0px;
+}
+
+.content {
+	padding-left: 0rem;
+	/* padding-top: 4rem; */
+	padding-top:1%;
+	min-height: 100vh;
+	transition: 0.3s;
+	position: relative;
+	/* padding-bottom: 100px; */
+}
+.close{
+	background-color: transparent !important;
+	font-size: 30px;
+	border:none;
+	outline: none;
+	font-weight: bold;
+}
+
+.close:hover{
+	color: red !important;
+	outline: none;
+}
+
+.graph-card {
+	background: white;
+	border-radius: 4px;
+	box-shadow: 0px 0px 50px 5px lightgrey;
+}
+
+
+ .stats-card,.order-card,.profit-card
+{
+	background-image: linear-gradient(to top,rgba(90, 105, 243,0.2),white);
+}
+
+.card-title {
+	font-size: large;
+	font-weight: 500;
+	color: #575757;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.content {
+		padding-left: 0vw;
+	}
+}
+

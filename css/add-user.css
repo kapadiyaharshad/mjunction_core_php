@@ -1,0 +1,45 @@
+.user-btn {
+	background: #7367F0 !important;
+	border-color: #7367F0 !important;
+	color: white;
+	margin-bottom: 1rem;
+}
+
+.user-btn:hover {
+	box-shadow: 0 8px 25px -8px #7367f0;
+}
+
+.new {
+  padding: 50px;
+}
+
+.form-group {
+  display: block;
+  margin-bottom: 15px;
+}
+
+input[type=checkbox] {
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 1.6em;
+  height: 1.6em;
+  padding-right: 0.2em;
+  padding-bottom: 1.6em;
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .2s;
+}
+
+input[type=checkbox]:checked {
+  background-color: MediumSeaGreen;
+  border-color: MediumSeaGreen;
+  color: #fff;
+}
+
+.new{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+}

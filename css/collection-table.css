@@ -1,0 +1,7 @@
+.stat-blue {
+	display: flex;
+	align-items: center;
+}
+.stat-item {
+	flex-direction: column;
+}

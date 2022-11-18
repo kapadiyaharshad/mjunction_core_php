@@ -1,0 +1,94 @@
+.content {
+	padding-left: 0rem;
+	padding-top: 5rem;
+	min-height: 100vh;
+}
+
+.cards-wrapper {
+	display: flex;
+	flex: 5; 
+	flex-wrap: wrap;
+}
+
+.order-card {
+	flex: 1;
+}
+
+.profit-card {
+	flex: 1;
+}
+
+.stats-card {
+	flex: 3;
+}
+
+.card-title {
+	font-size: large;
+	font-weight: 500;
+	color: #575757;
+}
+
+.card-value {
+	font-size: 1.4em;
+	font-weight: 500;
+	color: #454545;
+	margin-top: -0.4rem;
+	width: 50%;
+}
+
+.stat-item {
+	width: 33%;
+	margin-bottom: 1rem;
+}
+
+.stat-icon {
+	background: #EEEDFD;
+	color: #7B6FF1;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 3rem;
+	font-size: 1.6rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.stat-value {
+	font-size: 1.2em;
+	font-weight: 500;
+	color: #454545;
+}
+
+.stat-name {
+	color: #575757;
+	font-size: smaller;
+	margin-top: -0.3rem;
+}
+
+.card-hover{
+	/*background-image: linear-gradient(to top,rgba(90, 105, 243,0.2),white);*/
+	box-shadow: 5px 5px 10px lightgrey;
+	transition: background 1s;
+}
+
+.card-hover:hover{
+	box-shadow: 10px 10px 10px lightgrey;
+	background: linear-gradient(350deg,rgba(90, 105, 243,0.3),white);
+	
+}
+
+
+@media only screen and (max-width: 600px) {
+	.cards-wrapper {
+		flex: 4;
+	}
+	.stats-card {
+		margin-top: 1rem;
+	}
+	.stat-item {
+		width: 50%;
+	}
+	.content {
+		padding-left: 0vw;
+	}
+}

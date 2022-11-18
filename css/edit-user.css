@@ -1,0 +1,26 @@
+input[type=checkbox] {
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 1.6em;
+  height: 1.6em;
+  padding-right: 0.2em;
+  padding-bottom: 1.6em;
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .2s;
+}
+
+input[type=checkbox]:checked {
+  background-color: MediumSeaGreen;
+  border-color: MediumSeaGreen;
+  color: #fff;
+}
+
+.new{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	padding: 50px;
+}
